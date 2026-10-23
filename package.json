@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Simple YouTube video downloader",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/votre_nom_utilisateur/YTB"
   },
+  "license": "ISC",
   "dependencies": {
     "@distube/ytdl-core": "^4.16.10"
   }
